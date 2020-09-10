@@ -1,0 +1,11 @@
+
+.suggestions{
+    display: flex;
+}
+
+.suggestion_text{
+    font-size: .75rem;
+    margin-left: 4px;
+    margin-right: 2.5rem;
+}
+
