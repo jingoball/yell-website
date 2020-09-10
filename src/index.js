@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'bulma/css/bulma.css';
+import {BrowserRouter} from 'react-router-dom';
 
-ReactDOM.render(
-  <React.StrictMode>
+ReactDOM.render(   //<React.StrictMode><App/></React.StrictMode>
+  <BrowserRouter>    
     <App />
-  </React.StrictMode>,
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
