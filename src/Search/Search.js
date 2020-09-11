@@ -1,8 +1,13 @@
 import React from 'react';
 import { Navbar } from '../Navbar/Navbar';
+import { SubNav } from '../Navbar/SubNav/SubNav';
 
 export function Search(){
     return(
-        <Navbar/>  
+        <div>
+            <Navbar/> 
+            <SubNav/>
+        </div>
+        
     );
 }
