@@ -1,8 +1,8 @@
 import React from 'react';
-import { LandingPage } from '../LandingPage/LandingPage';
+import { Navbar } from '../Navbar/Navbar';
 
 export function Search(){
     return(
-        <div>Search</div>
+        <Navbar/>  
     );
 }
