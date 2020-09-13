@@ -22,7 +22,7 @@ export function SearchBar(props){
                 </button>
             </p>
             <p className="control">
-                <input className={`input ${sizeClass} ${styles['input-control']} type="text" placeholder="Where`}>
+                <input className={`input ${sizeClass} ${styles['input-control']}`} type="text" placeholder="where...">
                 
                 </input>
             </p>
