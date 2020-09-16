@@ -1,14 +1,13 @@
 import React from 'react';
+import { Spinner } from '../../Spinner/Spinner';
 import { SearchResult } from './SearchResult/SearchResult';
 import styles from './SearchResults.module.css';
 
 export function SearchResults(props){
-
-    if(!props.businesses || !props.businesses.length ){
-        return(<div></div>);
+    let searchResults = <Spinner/>
+    if(props.businesses && props.businesses.length ){
+        searchResults = props.businesses.map(b => <SearchResult key={b.id} business={b}/>);
     }
-
-    const searchResults = props.businesses.map(b => <SearchResult key={b.id} businesses={b}/>);
 
     return(
         <div className={styles['search-results']}>
@@ -16,3 +15,4 @@ export function SearchResults(props){
         </div>
     );
 }
+
