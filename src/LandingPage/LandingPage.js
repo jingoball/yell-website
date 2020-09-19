@@ -1,6 +1,6 @@
 import React from 'react';
 import { TopNav } from './TopNav/TopNav';
-import logo from '../assets/yell_icon5.png';
+import logo from '../assets/yell.png';
 import styles from './LandingPage.module.css';
 import { SearchBar } from '../SearchBar/SearchBar';
 import { SearchSuggestions } from './SearchSuggestions/SearchSuggestions';

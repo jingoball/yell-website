@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo3.png';
+import logo from '../assets/yell.png';
 import styles from './Navbar.module.css';
 import { SearchBar } from '../SearchBar/SearchBar';
 import { Link } from 'react-router-dom';
